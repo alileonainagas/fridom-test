@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Post-CSS */
+.w-halfview {
+    width: 50vw;
+}
+.text-blackcustom {
+    color: #0B0500;
+}
+.bg-blackcustom {
+    background-color: #0B0500;
+}
+.bg-imagecustom {
+    background-image: url('../assets/pattern.svg');
+}
+.bg-coral-pallete {
+    background: rgba( 254, 94, 65, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.bg-input-pallete {
+    background-color: #8f8f8f;
+}
+.textarea-pallete {
+    color: #8f8f8f;
+}
+.bg-button-pallete {
+    background-color: #853221;
+}
+.bg-card-pallete {
+    background: rgba( 249, 144, 93, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
